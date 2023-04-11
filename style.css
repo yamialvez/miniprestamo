@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+
+.constru{
+  width: 500px;
+height: 500px;
+padding-bottom: 200px;
+
+}
+
+.body{
+position: relative;
+padding-bottom: 3em;
+min-height: 100vh;
+
+}
+
+
+
+.title {
+  padding-top: 5%;
+  color: white;
+  text-align: center;
+  font-size: 110px;
+  -webkit-text-stroke: 2px black;
+ 
+}
+
+.textUno {
+  font-size: 50px;
+  text-align: center;
+  color: red;
+  background-color: yellow;
+  border-radius: 80px;
+  margin:80px;
+  
+}
+
+.containerImg {
+  display: flex;
+  justify-content: center;
+}
+
+.efectivo{
+  position: absolute;
+ 
+  
+
+}
+
+.rapido{
+border-radius: 200px;
+width: 200px;
+height: 200px;
+
+}
+
+
+
+.billetes {
+  width: 1000px;
+  height: 450px;
+  border-radius: 3rem;
+  border: solid white 3px;
+  align-items: center;
+  }
+
+.textDos {
+  font-size: 50px;
+  color: black;
+  /*-webkit-text-stroke: 1px black;
+  color: white;*/
+  text-align: center;
+}
+
+.textTres {
+  font-size: 50px;
+  color: black;
+  /*-webkit-text-stroke: 1px black;
+  color: white;*/
+  text-align: center;
+}
+
+.containerButton {
+  display: flex;
+  justify-content: center;
+}
+
+.botonLink {
+  color: green;
+  font-size: 60px;
+  padding: 10px;
+  margin: 30px;
+}
+
+
+
+.titleDos{
+
+  font-size: 40px;
+  text-align: center;
+}
+
+.parrafo{
+font-size: 18PX;
+text-align: center;
+line-height: 50px;
+margin: 20px;
+
+
+}
+
+
+
+
+footer .copy {
+  background-color: black;
+  color: gray;
+  font-size: 15px;
+  text-align: center;
+  font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  
+  
+
+}
+
+@media only screen and (max-width: 450px) {
+  .title {
+    font-size: 50px;
+  }
+
+  
+  .rapido{
+    border-radius: 200px;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    
+    }
+
+  .billetes {
+    width: 300px;
+    height: 150px;
+  }
+
+  .textDos {
+    font-size: 20px;
+  }
+
+  .textTres {
+    font-size: 15px;
+  }
+
+  .botonLink {
+    font-size: 20px;
+  }
+
+  footer .copy {
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  
+  }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  .title {
+    font-size: 75px;
+  }
+
+ 
+  .rapido{
+    border-radius: 200px;
+    width: 140px;
+    height: 140px;
+    
+    }
+
+
+  
+  .billetes {
+    width: 500px;
+    height: 350px;
+  }
+
+  .textDos {
+    font-size: 40px;
+  }
+
+  .textTres {
+    font-size: 30px;
+  }
+
+  .botonLink {
+    font-size: 30px;
+  }
+
+  footer .copy {
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
